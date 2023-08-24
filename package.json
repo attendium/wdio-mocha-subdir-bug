@@ -1,0 +1,16 @@
+{
+  "name": "wdio-mocha-bug",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "wdio run ./test/unit/wdio.conf.ts"
+  },
+  "devDependencies": {
+    "@wdio/browser-runner": "^8.15.6",
+    "@wdio/cli": "^8.15.6",
+    "@wdio/mocha-framework": "^8.15.6",
+    "@wdio/spec-reporter": "^8.15.6",
+    "@wdio/types": "^8.15.0",
+    "ts-node": "^10.9.1"
+  }
+}
